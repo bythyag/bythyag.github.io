@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.desc p{
+    
+    padding-left: 30%;
+    padding-right: 30%;
+  line-height: 1.5rem;
+  text-indent: 1rem;
+}
+.desc a{
+   text-decoration: none;
+   color: grey;
+   font-style: italic;
+}
+.head{
+    padding-top: 12%;
+    padding-bottom: 8%;
+    font-size: 3rem;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-indent: 1rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 20px;
+    
+}    
+.footer{
+   padding-top: 6%;  
+   padding-bottom: 3%;
+   left: 10px;  
+   bottom: 5px;  
+   right: 10px;   
+   width: 95%;  
+   text-align: center;  
+   font-size: 15px;
+}
+.brief a{
+    text-decoration: none;
+    
+}
+   
+   
+.brief {
+    padding-top: 30px;
+    font-style: italic;
+    font-size: 1rem;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+@media all and (max-width:500px){
+
+.desc p{
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-indent: 1rem;
+}
+
+.head{
+    font-size: 2rem;
+    padding-top: 10%;
+    padding-left: 10%;
+    text-indent: 1rem;
+}
+
+    
+    .brief {
+        padding-top: 30px;
+        font-style: italic;
+        font-size: 13px;
+        padding-right: 10%;
+        padding-left: 10%;
+        
+    }
+    
+    .brief a{
+        text-decoration: none;
+        color: grey;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color: grey;
+        margin-right: 10px;
+        
+    }   
+    .footer{
+        padding-top: 4%;  
+        padding-bottom: 2%;
+        left: 10px;  
+        bottom: 5px;  
+        right: 10px;   
+        width: 95%;  
+        text-align: center;  
+        font-size: 8px;
+     } 
+}

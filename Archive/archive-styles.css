@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.blog p{
+    padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 1.5rem;
+}
+.month{
+    font-size: 3rem;
+    padding-top: 10%;
+    padding-left: 30%;
+}
+
+
+.blog a{
+    margin-left: 20%;
+    text-decoration: none;
+    color:grey;
+    font-size: 1.5rem;
+    
+
+}
+
+.footer a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 20px;
+    
+}    
+.footer{
+   padding-top: 6%;  
+   padding-bottom: 3%;
+   left: 10px;  
+   bottom: 5px;  
+   right: 10px;   
+   width: 95%;  
+   text-align: center;  
+   font-size: 15px;
+}
+.brief a{
+    text-decoration: none;
+    color: grey;
+}
+.brief {
+    padding-top: 30px;
+    font-style: italic;
+    font-size: 1rem;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+@media all and (max-width:500px){
+    
+    .blog p{
+        padding-left: 10%;
+    padding-right: 10%;
+    
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-indent: 1rem;
+    }
+    .month{
+        font-size: 2rem;
+    padding-top: 10%;
+    padding-left: 10%;
+    }
+    
+    
+    .blog a{
+        margin-left: 20%;
+        text-decoration: none;
+        color:grey;
+        font-size: 1.5rem;
+        
+    
+    }
+
+
+
+
+    .brief {
+        padding-top: 30px;
+        font-style: italic;
+        font-size: 13px;
+        padding-right: 10%;
+        padding-left: 10%;
+        
+    }
+    
+    .brief a{
+        text-decoration: none;
+        color: grey;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color: grey;
+        margin-right: 10px;
+        
+    }   
+    .footer{
+        padding-top: 4%;  
+        padding-bottom: 2%;
+        left: 10px;  
+        bottom: 5px;  
+        right: 10px;   
+        width: 95%;  
+        text-align: center;  
+        font-size: 8px;
+     } 
+}
